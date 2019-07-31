@@ -9,7 +9,7 @@ import {Album} from "./albums/album.model";
 export class AppComponent implements OnInit {
   title = `Christine's Angular Albums`;
   albumsArray: Album[];
-  titleCounter :number = 1;
+  titleCounter: number = 1;
   ngOnInit(): void {
 
     console.log(JSON.stringify(this.albumsArray, null, 4));
