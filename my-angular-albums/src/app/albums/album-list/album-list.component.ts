@@ -54,4 +54,8 @@ export class AlbumListComponent implements OnInit {
       url: "https://www.allmusic.com/album/the-beatles-white-album-mw0000418113"
     }];
   }
+
+  parentFunctionHandler(album){
+    alert('Album ' + album.albumName + ' was sent from the album card component');
+  }
 }
